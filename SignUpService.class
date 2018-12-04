@@ -1,0 +1,9 @@
+package com.jspiders.model;
+
+public class SignupService {
+	public boolean signUpUser(String name,String email, long phn)
+	{
+		System.out.println("signup done");
+		return true;
+	}
+}
